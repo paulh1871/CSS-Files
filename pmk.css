@@ -5,7 +5,7 @@ input#pos-terms
 
 .search, .search input 
 {
-    visibility: hidden;
+    visibility: ;
 }
 
 .popup.fullscreen .contents .inner .products, .popup.fullscreen .contents .inner .categories, .popup.fullscreen .contents .inner .designs 
