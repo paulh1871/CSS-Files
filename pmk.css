@@ -30,7 +30,7 @@ font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
 
 }
-.popup>.contents .v2
+.popup>.contents .v2#add-text-popup
 {
     text-transform: uppercase;
     height: 112%;
