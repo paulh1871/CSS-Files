@@ -18,7 +18,7 @@ input#pos-terms
     width: 100% !important;
 }
 .category img {
-    height: auto !important;
+    height: auto;
 }
 .popup.fullscreen .contents .inner .categories {
     max-height: 976px;
