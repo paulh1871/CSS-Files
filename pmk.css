@@ -3,6 +3,11 @@ input#pos-terms
     height: 20px;
 }
 
+.popup
+{
+    bottom: 160px
+}
+
 .search, .search input 
 {
     visibility: hidden;
