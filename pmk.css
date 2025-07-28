@@ -6,8 +6,6 @@ input#pos-terms
 .popup
 {
     bottom: 160px
-    left: 10%
-    width: 80%
 }
 
 .search, .search input 
@@ -46,6 +44,13 @@ font-family: 'Montserrat', sans-serif !important;
 .popup.v2#add-text-popup .contents
 {
    border: 5px solid #005161;
+}
+
+.popup#pos-popup .contents 
+{
+    height: 161%;
+    left: 10%;
+    width: 80%;
 }
 
 #bottom .link
