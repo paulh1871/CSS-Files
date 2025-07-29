@@ -80,8 +80,12 @@ font-family: 'Montserrat', sans-serif !important;
 #product-name {
    text-transform: uppercase;
 }
-#bottom .link{
-background-image: url(https://paulh1871.github.io/CSS-Files/bottom_resize.png);
+#bottom .link {
+    background-image: url(https://paulh1871.github.io/CSS-Files/bottom_resize.png);
+    height: 90px;
+    width: 810px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #back .link {
     background-color: #000000;
