@@ -29,6 +29,13 @@ input#pos-terms
 .popup.fullscreen .contents .inner .categories {
     max-height: 976px;
 }
+.popup.fullscreen .contents {
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 @font-face {
   font-family: Montserrat Light;
   src: url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
@@ -67,7 +74,7 @@ font-family: 'Montserrat', sans-serif !important;
    text-transform: uppercase;
 }
 #bottom .link{
-background-image: url(https://paulh1871.github.io/CSS-Files/bottom_resize.png) center top no-repeat;
+background-image: url(https://paulh1871.github.io/CSS-Files/bottom_resize.png);
 }
 #back .link {
     background-color: #000000;
