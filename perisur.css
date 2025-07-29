@@ -17,6 +17,12 @@ input#pos-terms
 {
     width: 100% !important;
 }
+.popup#category-popup .contents .banner
+ {
+    background: url(./images/banner.png) center top no-repeat;
+    height: 200px;
+    background-size: 100%;
+}
 .category img {
     height: auto;
 }
