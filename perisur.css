@@ -36,6 +36,13 @@ input#pos-terms
     height: 100%;
     border: none;
 }
+#renderer>canvas
+ {
+    position: absolute;
+    top: -83px;
+    left: 75px;
+    display: none;
+}
 @font-face {
   font-family: Montserrat Light;
   src: url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
