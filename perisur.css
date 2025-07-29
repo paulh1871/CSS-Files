@@ -67,7 +67,7 @@ font-family: 'Montserrat', sans-serif !important;
    text-transform: uppercase;
 }
 #bottom .link{
-background-image: linear-gradient(-90deg, #57C0FC, #00a4d7);
+background-image: url(https://paulh1871.github.io/CSS-Files/bottom_resize.png) center top no-repeat;
 }
 #back .link {
     background-color: #000000;
