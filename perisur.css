@@ -73,7 +73,9 @@ font-family: 'Montserrat', sans-serif !important;
     left: 10%;
     width: 80%;
 }
-
+.popup.fullscreen .contents .inner.space {
+    margin-top: -45px;
+}
 #bottom .link
 {
     text-transform: uppercase;
