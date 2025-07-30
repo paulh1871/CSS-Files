@@ -58,8 +58,9 @@ font-family: 'Montserrat', sans-serif !important;
 .popup>.contents 
 {
     text-transform: uppercase;
-    height: 112%;
+    height: 202%;
     border: 5px solid #005161;
+    top: -118px;
 }
 .popup.v2#add-text-popup .contents
 {
