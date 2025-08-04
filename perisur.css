@@ -58,9 +58,9 @@ font-family: 'Montserrat', sans-serif !important;
 .popup>.contents 
 {
     text-transform: uppercase;
-    height: 202%;
+    height: 238%;
     border: 5px solid #005161;
-    top: -118px;
+    top: -175px;
 }
 .popup.v2#add-text-popup .contents
 {
@@ -140,3 +140,4 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 
 #menu .menu-wrapper.v2 .row .button.preview {
     margin-top: 5px;
+
