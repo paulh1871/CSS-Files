@@ -53,14 +53,13 @@ font-family: 'Montserrat', sans-serif !important;
 #menu .menu-wrapper .button
 {
     text-transform: uppercase;
-
 }
 .popup>.contents 
 {
     text-transform: uppercase;
-    height: 238%;
+    height: 238%; /* Changed from 202% to accomodate products with two lines of personalisation */
     border: 5px solid #005161;
-    top: -175px;
+    top: -175px; /* Changed from -118px to accomodate products with two lines of personalisation */
 }
 .popup.v2#add-text-popup .contents
 {
@@ -140,4 +139,5 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 
 #menu .menu-wrapper.v2 .row .button.preview {
     margin-top: 5px;
+
 
