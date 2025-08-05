@@ -53,6 +53,8 @@ font-family: 'Montserrat', sans-serif !important;
 #menu .menu-wrapper .button
 {
     text-transform: uppercase;
+    background-color: #000000;
+    background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 }
 .popup>.contents 
 {
@@ -107,10 +109,7 @@ font-family: 'Montserrat', sans-serif !important;
     margin: 55px 0;
     color: #3c3c3b;
 }
-#menu .menu-wrapper .button {
-    background-color: #000000;
-    background-image: linear-gradient(-90deg, #575757, #2E2E2E);
-}
+
 #menu .menu-wrapper .button.preview, .actions .button.a2c 
 {
     background-color: #00a4d7;
@@ -139,5 +138,20 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 
 #menu .menu-wrapper.v2 .row .button.preview {
     margin-top: 5px;
+}
 
+#menu .menu-wrapper.v2 .row .button {
+    width: 130px;  /* Was 160px */
+    border-radius: 0;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+#menu .menu-wrapper .button-wrapper {
+    display: ruby; /* this moved the back button to the left  on the product page*/
+}
+
+#menu .menu-wrapper.v2 .row .home-back.home
+ {
+    /* background: url(./images/home.png) center no-repeat #4cb7db; */
+}
 
