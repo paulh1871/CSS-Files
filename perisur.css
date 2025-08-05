@@ -153,8 +153,9 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 #menu .menu-wrapper.v2 .row .home-back.home
  {
     /* background: url(./images/home.png) center no-repeat #4cb7db; */
-    background: center no-repeat #4cb7db;
+    background: none;
 }
+
 
 
 
