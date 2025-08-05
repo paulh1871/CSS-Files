@@ -78,9 +78,14 @@ font-family: 'Montserrat', sans-serif !important;
     margin-top: -90px; /* 05.08.25 - changed from -45px to enable the scroll bar, and to allow 9 products to be fully visible */
 }
 .popup.fullscreen .contents .inner .products, .popup.fullscreen .contents .inner .categories, .popup.fullscreen .contents .inner .designs {
-    height: 785px; /* 05.08.25 - changed from 1360px to enable the scroll bar, and to allow 9 products to be fully visible */
+    height: 792px; /* 05.08.25 - changed from 1360px to enable the scroll bar, and to allow 9 products to be fully visible */
 }
-
+::-webkit-scrollbar
+ {
+    width: 6px;
+    height: 12px;
+    background-color: transparent;
+}
 #bottom .link
 {
     text-transform: uppercase;
@@ -166,6 +171,7 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
     left: 13%;
     border: 5px solid #005161;
 }
+
 
 
 
