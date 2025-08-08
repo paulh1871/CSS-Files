@@ -91,8 +91,9 @@ font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
 }
 #product-name {
-   text-transform: uppercase;
-   text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    right: 100px;
 }
 #bottom .link {
     background-image: url(https://external-app-assets-gateway3d-com.s3.eu-west-1.amazonaws.com/disney/footer.png);
@@ -175,4 +176,5 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 .popup.fullscreen .contents .inner .title>div {
     line-height: 1px; /* hides the title text on the final page */
 }
+
 
