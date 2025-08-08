@@ -167,7 +167,10 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
     /* background: url(./images/home.png) center no-repeat #4cb7db; */
     background: none;
 }
-
+#menu .menu-wrapper.v2 .row .home-back
+{
+    vertical-align: bottom;
+}
 .popup.v2#attribute-popup .contents, .popup.v2#size-popup .contents {
     width: 75%;
     left: 13%;
@@ -176,5 +179,6 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 .popup.fullscreen .contents .inner .title>div {
     line-height: 1px; /* hides the title text on the final page */
 }
+
 
 
