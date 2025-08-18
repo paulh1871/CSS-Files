@@ -159,7 +159,7 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 }
 #menu .menu-wrapper.v2 .row .button-wrapper {
     vertical-align: top;
-    display: ruby; /* this moved the back button to the left  on the product page*/
+    display: ruby; /* this moves the back button to the left on the product page*/
 }
 
 #menu .menu-wrapper.v2 .row .home-back.home
@@ -185,8 +185,9 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 
 .popup#pos-popup .contents .terms .title input
  {
-    margin-left: -80px; /* moved the terms checkbox to the right */
+    margin-left: -80px; /* moves the terms checkbox to the right */
 }
+
 
 
 
