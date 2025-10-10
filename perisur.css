@@ -61,7 +61,7 @@ font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
     height: 238%; /* Changed from 202% to accomodate products with two lines of personalisation */
     border: 5px solid #005161;
-    top: -175px; /* Changed from -118px to accomodate products with two lines of personalisation */
+    top: -213px; /* Changed from -118px to accomodate products with two lines of personalisation (and then from -175px on 10.10.25) */
 }
 .popup.v2#add-text-popup .contents
 {
@@ -70,7 +70,7 @@ font-family: 'Montserrat', sans-serif !important;
 
 .popup#pos-popup .contents 
 {
-    height: 203%;
+    height: 203%; /* Changed from 203% on 10.10.25 after recompiling smartlink ) */
     left: 10%;
     width: 80%;
 }
@@ -187,6 +187,7 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
  {
     margin-left: -80px; /* moves the terms checkbox to the right */
 }
+
 
 
 
