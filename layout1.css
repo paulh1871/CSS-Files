@@ -1,0 +1,189 @@
+input#pos-terms 
+{
+    height: 20px;
+}
+
+.popup
+{
+    bottom: 160px
+}
+
+.search, .search input 
+{
+    visibility: hidden;
+}
+
+.popup.fullscreen .contents .inner .products, .popup.fullscreen .contents .inner .categories, .popup.fullscreen .contents .inner .designs 
+{
+    width: 100% !important;
+}
+.popup#category-popup .contents .banner
+ {
+    background: url(./images/banner.png) center top no-repeat;
+    height: 200px;
+    background-size: 100%;
+}
+.category img {
+    height: auto;
+}
+.popup.fullscreen .contents .inner .categories {
+    max-height: 976px;
+}
+.popup.fullscreen .contents {
+    top: -12px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#renderer>canvas
+ {
+    position: absolute;
+    top: -83px;
+    left: 75px;
+    display: none;
+}
+@font-face {
+  font-family: Montserrat Light;
+  src: url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+}
+body {
+font-family: 'Montserrat', sans-serif !important;
+}
+#menu .menu-wrapper .button
+{
+    text-transform: uppercase;
+    background-color: #000000;
+    background-image: linear-gradient(-90deg, #575757, #2E2E2E);
+}
+.popup>.contents 
+{
+    text-transform: uppercase;
+    height: 238%; /* Changed from 202% to accomodate products with two lines of personalisation */
+    border: 5px solid #005161;
+    top: -175px; /* Changed from -118px to accomodate products with two lines of personalisation */
+}
+.popup.v2#add-text-popup .contents
+{
+   border: 5px solid #005161;
+}
+
+.popup#pos-popup .contents 
+{
+    height: 203%;
+    left: 10%;
+    width: 80%;
+}
+.popup.fullscreen .contents .inner.space {
+    margin-top: -90px; /* 05.08.25 - changed from -45px to enable the scroll bar, and to allow 9 products to be fully visible */
+}
+.popup.fullscreen .contents .inner .products, .popup.fullscreen .contents .inner .categories, .popup.fullscreen .contents .inner .designs {
+    height: 798px; /* 05.08.25 - changed from 1360px to enable the scroll bar, and to allow 9 products to be fully visible */
+}
+::-webkit-scrollbar
+ {
+    width: 6px;
+    height: 12px;
+    background-color: transparent;
+}
+#bottom .link
+{
+    text-transform: uppercase;
+}
+#product-name {
+    text-transform: uppercase;
+    text-align: center;
+    right: 100px;
+}
+#bottom .link {
+    background-image: url(https://external-app-assets-gateway3d-com.s3.eu-west-1.amazonaws.com/disney/footer.png);
+    height: 90px;
+    width: 810px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#back .link {
+    background-color: #000000;
+    background-image: linear-gradient(-90deg, #575757, #2E2E2E);
+}
+#back {
+    position: absolute;
+    bottom: 113px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.popup.fullscreen .contents .inner .title
+ {
+    font-size: 45px;
+    margin: 55px 0;
+    color: #3c3c3b;
+}
+
+#menu .menu-wrapper .button.preview, .actions .button.a2c 
+{
+    background-color: #00a4d7;
+    background-image: linear-gradient(-90deg, #57C0FC, #00a4d7);
+}
+.actions .button
+{
+background-image: linear-gradient(-90deg, #575757, #2E2E2E);
+}
+.popup.fullscreen .contents .inner {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -70px;
+}
+.popup #preview #preview-canvas canvas {
+  /*  height: 100%; */
+ /*   width: unset !important; */
+    height: auto;
+    width: 50%;
+}
+#menu {
+  /*  position: absolute; */
+  /*  bottom: 100px; <-- this lowers the menu on the product options page (color, size etc) */
+  /*  width: 101%; */
+}
+
+#menu .menu-wrapper.v2 .row .button.preview {
+    margin-top: 5px;
+}
+
+#menu .menu-wrapper.v2 .row .button {
+    width: 130px;  /* Was 160px */
+    border-radius: 0;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+#menu .menu-wrapper.v2 .row .button-wrapper {
+    vertical-align: top;
+    display: ruby; /* this moves the back button to the left on the product page*/
+}
+
+#menu .menu-wrapper.v2 .row .home-back.home
+ {
+    /* background: url(./images/home.png) center no-repeat #4cb7db; */
+    background: none;
+}
+#menu .menu-wrapper.v2 .row .home-back
+{
+    vertical-align: bottom;
+}
+.popup.v2#attribute-popup .contents, .popup.v2#size-popup .contents {
+    width: 75%;
+    left: 13%;
+    border: 5px solid #005161;
+}
+.popup.fullscreen .contents .inner .title>div.inline {
+    color: #0000; /* hides the title text on the final page */
+}
+
+.popup#pos-popup input, .popup#pos-popup select {
+    width: 185px; /*18.08.25 - changed from 130px after dropping address fields */
+
+.popup#pos-popup .contents .terms .title input
+ {
+    margin-left: -80px; /* moves the terms checkbox to the right */
+}
