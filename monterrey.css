@@ -24,7 +24,7 @@ input#pos-terms
     background-size: 100%;
 }
 .category img {
-    height: auto;
+    height: 163px; /* 27.03.26 - amended from auto to accomodate 4 banners */
 }
 .popup.fullscreen .contents .inner .categories {
     max-height: 976px;
@@ -133,7 +133,7 @@ background-image: linear-gradient(-90deg, #575757, #2E2E2E);
 .popup.fullscreen .contents .inner {
     margin: 0 auto;
     text-align: center;
-    margin-top: -70px;
+    margin-top: -105px; /* 27.03.26 - amended from -70px to accomodate 4 banners */
 }
 .popup #preview #preview-canvas canvas {
   /*  height: 100%; */
